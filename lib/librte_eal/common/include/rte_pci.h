@@ -86,6 +86,8 @@ TAILQ_HEAD(rte_pci_device_list, rte_pci_device);
 /** List of PCI drivers */
 TAILQ_HEAD(rte_pci_driver_list, rte_pci_driver);
 
+extern struct rte_pci_bus rte_pci_bus;
+
 /* PCI Bus iterators */
 #define FOREACH_DEVICE_ON_PCIBUS(p)	\
 		TAILQ_FOREACH(p, &(rte_pci_bus.device_list), next)

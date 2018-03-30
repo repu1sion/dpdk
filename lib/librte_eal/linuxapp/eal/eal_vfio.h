@@ -206,7 +206,6 @@ int vfio_enable(const char *modname);
 int vfio_is_enabled(const char *modname);
 
 int pci_vfio_enable(void);
-int pci_vfio_is_enabled(void);
 
 int vfio_mp_sync_setup(void);
 

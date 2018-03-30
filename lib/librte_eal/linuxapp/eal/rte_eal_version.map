@@ -30,6 +30,7 @@ DPDK_2.0 {
 	rte_eal_has_hugepages;
 	rte_eal_hpet_init;
 	rte_eal_init;
+	pci_vfio_is_enabled;
 	rte_eal_iopl_init;
 	rte_eal_lcore_role;
 	rte_eal_mp_remote_launch;
@@ -56,6 +57,7 @@ DPDK_2.0 {
 	rte_log_cur_msg_loglevel;
 	rte_log_cur_msg_logtype;
 	rte_logs;
+	rte_pci_bus;
 	rte_malloc;
 	rte_malloc_dump_stats;
 	rte_malloc_get_socket_stats;

@@ -46,6 +46,7 @@
 #include <rte_per_lcore.h>
 #include <rte_config.h>
 
+
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -192,6 +193,7 @@ int rte_eal_iopl_init(void);
  */
 int rte_eal_init(int argc, char **argv);
 
+int pci_vfio_is_enabled(void);
 /**
  * Check if a primary process is currently alive
  *
